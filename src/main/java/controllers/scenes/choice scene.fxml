@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="123.0"
+            prefWidth="224.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ChoiceController">
+   <children>
+      <ChoiceBox fx:id="choiceBox" onKeyPressed="#onKeyPressed" layoutX="37.0" layoutY="27.0" prefWidth="150.0" />
+      <Button onAction="#onButtonSendAction" layoutX="78.0" layoutY="71.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Select" />
+   </children>
+</AnchorPane>

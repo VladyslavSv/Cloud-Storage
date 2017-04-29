@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="199.0" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.VerificationController">
+   <children>
+      <TextField fx:id="loginTextForm" layoutX="63.0" layoutY="14.0" onKeyPressed="#onKeyPressed" prefHeight="25.0" prefWidth="122.0" />
+      <PasswordField fx:id="passwordField" layoutX="63.0" layoutY="46.0" onKeyPressed="#onKeyPressed" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="8.0" layoutY="18.0" text="Login:" />
+      <Label layoutX="8.0" layoutY="50.0" text="Password:" />
+      <Button layoutX="77.0" layoutY="76.0" mnemonicParsing="false" text="Login" onAction="#onButtonLoginAction"/>
+   </children>
+</AnchorPane>

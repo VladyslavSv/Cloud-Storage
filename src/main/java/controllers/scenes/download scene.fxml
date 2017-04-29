@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="391.0" prefWidth="317.0" style="-fx-padding: 30;"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.DownloadController">
+   <children>
+      <ListView onKeyPressed="#onKeyPressed" fx:id="listView" layoutX="14.0" layoutY="14.0" prefHeight="285.0" prefWidth="291.0" />
+      <TextField onKeyPressed="#onKeyPressed" fx:id="textFieldWithPath" layoutX="14.0" layoutY="328.0" prefHeight="25.0" prefWidth="254.0" />
+      <Text layoutX="14.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path for download:" wrappingWidth="141.13671875" />
+      <Button onAction="#onDownloadButtonAction" layoutX="233.0" layoutY="360.0" mnemonicParsing="false" text="Download" />
+      <ImageView   fx:id="imageView" onMouseClicked="#onClickToImage" fitHeight="17.0" fitWidth="18.0" layoutX="14.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true"/>
+
+      <Button layoutX="279.0" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="23.0" text="..." onAction="#onThreeDotAction" />
+   </children>
+</AnchorPane>
